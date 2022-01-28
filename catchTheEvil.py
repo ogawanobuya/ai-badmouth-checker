@@ -9,10 +9,10 @@ from keras.models import Sequential, load_model
 from keras.preprocessing import sequence
 
 # 認証処理
-CK = 'yldk1YIA0NRsvFsCQmfGaQCgK'
-CS = '8Ck4l3huZCRTscho7ctvjMvtSCZuclKM5b9obb16HVmpJz7U6M'
-AT = '728509246690590720-uYedUZFbSRAYIDnCjnu1g0XLAT4PnRo'
-ATS = 'tahnBJKLjbbbF6xXMvncf0qTULp3ASaYTQ2F3eNUPgfWF'
+CK = 'Your_Own'
+CS = 'Your_Own'
+AT = 'Your_Own'
+ATS = 'Your_Own'
 twitter = OAuth1Session(CK, CS, AT, ATS)
 
 # ツイート検索エンドポイント
